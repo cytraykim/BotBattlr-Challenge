@@ -1,0 +1,36 @@
+/* BotCollectionCard.css */
+.bot-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.bot-card {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.bot-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.bot-name {
+  font-weight: bold;
+}
+
+.bot-class {
+  color: #555;
+}
+
+.bot-buttons {
+  margin-top: 10px;
+}
