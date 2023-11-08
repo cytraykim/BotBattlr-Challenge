@@ -11,6 +11,10 @@ AUTHORS INFO
 INSTALLATION REQUIREMENTS
 -Either a computer,phone,tablet or an Ipad Access to good internet
 
+###Screenshot
+![Screenshot from 2023-11-08 11-32-00](https://github.com/cytraykim/bot-battlr-Tracy/assets/135113249/b1ff3e07-ab5b-42c7-b949-a81f3e0dd570)
+
+
 # INSTALLATION PROCESS
 
 Clone the repository using the link below
