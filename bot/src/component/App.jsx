@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BotCollection from './BotCollection';
 import YourBotArmy from './YourBotArmy';
-import EnlistedBotRow from './EnlistedBotRow';
-import './App.css'
+import './App.css';
 
 const App = () => {
   const [bots, setBots] = useState([]);
@@ -43,9 +42,6 @@ const App = () => {
       <h1>Bot Collection</h1>
       <YourBotArmy bots={yourBotArmy} releaseBot={releaseBot} dischargeBot={dischargeBot} />
       <BotCollection bots={bots} enlistBot={enlistBot} />
-      {yourBotArmy.map((bot) => (
-        <EnlistedBotRow key={bot.id} bot={bot} />
-      ))}
     </div>
   );
 };

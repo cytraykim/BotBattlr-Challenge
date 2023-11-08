@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-between; /* Adjust as needed */
   gap: 20px; /* Adjust the gap between cards */
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .bot-card {
